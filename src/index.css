@@ -1,0 +1,41 @@
+html {
+   box-sizing: border-box;
+   font-size: 16px;
+   font-family: sans-serif;
+
+   padding: 2rem;
+}
+
+*,
+*:after,
+*::before {
+   box-sizing: inherit;
+}
+
+a {
+   color: ;
+   text-decoration: none;
+   padding: 0 0.5rem;
+}
+
+h1,
+h2 {
+   text-align: center;
+}
+
+header {
+   padding: 2rem;
+}
+
+.my-page {
+   margin: 2rem auto;
+   padding: 1rem;
+   width: 70%;
+   background-color: #ccc;
+}
+
+.dark {
+   background-color: #282c34;
+   filter: invert(1);
+   color: white;
+}
